@@ -4,15 +4,13 @@ import JournalEntry from "./JournalEntry";
 function MainContent(): JSX.Element {
   return (
     <main>
-      <JournalEntry 
+      <JournalEntry
         title={"Title goes here..."}
         tags={["tags", "go", "here"]}
-        body={
-          "This is where the body of the entry goes"
-        }
+        body={"This is where the body of the entry goes"}
         views={0}
         likes={0}
-        postDate={{month: "November", day: 3, year: 2022}}
+        postDate={{ month: "November", day: 3, year: 2022 }}
       />
       <JournalEntry
         title={"Discovering React components"}
