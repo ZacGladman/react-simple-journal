@@ -1,7 +1,7 @@
 function FixedEntry(): JSX.Element {
   return (
     <section>
-      <h2>Title goes here, MATE!!!!</h2>
+      <h2>Title goes here, MATE!!!!!</h2>
       <p>
         <i>Tags: tags, go, here</i>
       </p>
